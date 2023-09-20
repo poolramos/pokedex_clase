@@ -7,13 +7,13 @@ function Nav({ fnSubmit, fnClick, fnOnChange, dataOptions }) {
         <label htmlFor="name">
           Escribe el nombre específico de un pokemon:
         </label>
-        <input type="text" />
-        <button type="submit">Buscar</button>
+        <input className="inputname" type="text" />
+        <button className="search" type="submit">Buscar</button>
       </form>
       <div>
         <label>Filtra según escribes:</label>
         <div id="options">
-          <input type="text" onChange={fnOnChange} />
+          <input className="inputfilter" type="text" onChange={fnOnChange} />
           <ul>
             {dataOptions?.map((pokemon, i) => (
               <li key={i}>

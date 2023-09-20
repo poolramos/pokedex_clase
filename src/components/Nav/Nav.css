@@ -43,3 +43,24 @@ nav > div {
   padding: 8px 20px;
   cursor: pointer;
 }
+
+.search {
+  background-color:darkseagreen;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+.inputname {
+  height: 30px;
+  width: 280px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.inputfilter {
+  height: 30px;
+  width: 280px;
+  margin-right: 15px;
+  margin-left: 40px;
+}
