@@ -1,0 +1,60 @@
+/* Estilo para la sección */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(pokebola.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/* Estilo para los contenedores dentro de la sección */
+section > div {
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  border-radius: 5px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Para evitar que las imágenes se desborden */
+}
+
+/* Estilo para las imágenes dentro de los contenedores */
+section > div > img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: beige;
+  object-fit: cover; /* Ajustar la imagen al contenedor */
+}
+
+/* Estilo para las tablas */
+table {
+  border: 1px solid;
+  border-radius: 5px;
+  width: 400px;
+
+  margin: 20px auto; /* Centrar la tabla horizontalmente */
+  border-collapse: collapse; /* Para eliminar el espacio entre las celdas */
+}
+
+/* Estilo para la última columna de las filas de la tabla */
+tbody > tr > td:last-child {
+  text-align: right; /* Alinear a la derecha */
+}
+
+/* Estilo para todas las celdas de la tabla */
+td {
+  font-size: 1rem;
+  padding: 8px; /* Agregar espaciado interno a las celdas */
+  border: 1px solid; /* Agregar bordes a las celdas */
+  background-color: aliceblue;
+}
+
+th {
+  font-size: 1rem;
+  background-color:aquamarine;
+  padding: 8px; /* Agregar espaciado interno a las celdas */
+  border: 1px solid; /* Agregar bordes a las celdas */
+}
